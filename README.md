@@ -20,7 +20,7 @@ Tanzania: variations_tanzania.xlsx
 Uganda: variations_uganda.xlsx
 
 3. Regression coefficients with lower and upper bounds:
-Ethiopia: outputs_v23_prod7_crop_sales/coef_crop_sales___output___ethiopia_2015.csv
+Ethiopia: outputs_v23_prod7_crop_sales/coef_crop_sales___ols.csv (OLS regression), outputs_v23_prod7_crop_sales/coef_crop_sales___lasso.csv (Lasso regression), 
 Tanzania: tanzania_v6_7_crop_sales/coef_crop_sales___output.csv
 Uganda: uganda_v2_crop_sales/coef_crop_sales___output.csv
 
