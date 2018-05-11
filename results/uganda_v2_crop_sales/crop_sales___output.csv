@@ -1,5 +1,5 @@
 ,clustered,input,method,model,mse,roc_auc,scaled_mse,segment
-0,False,Highly correlated policy and non-policy variables,,Lasso,0.7821121824343249,0.5,0.7821121824343257,
-1,True,Highly correlated policy and non-policy variables,clustered,Lasso,0.8087258563791534,0.5,0.8087258563791542,"land_surface,number_of_tools_owned___policy,crop_diversification___policy,number_of_days_hired_workers___policy,household_head_is_monogamous"
-2,False,Policy variables,,Lasso,0.7795574322744456,0.5,0.7795574322744464,
-3,True,Policy variables,clustered,Lasso,0.814302414983198,0.5,0.8143024149831988,"land_surface,number_of_tools_owned___policy,crop_diversification___policy,number_of_days_hired_workers___policy,household_head_is_monogamous"
+0,False,Highly correlated all,,OLS,0.8253681171186822,0.5,0.825368117118683,
+1,True,Highly correlated all,clustered,OLS,0.8459756614124138,0.5,0.8459756614124146,"land_surface,number_of_tools_owned___policy,crop_diversification___policy,number_of_days_hired_workers___policy,household_head_is_monogamous"
+2,False,Highly correlated policy,,OLS,0.8284223783269409,0.5,0.8284223783269417,
+3,True,Highly correlated policy,clustered,OLS,0.8546372331898056,0.5,0.8546372331898064,"land_surface,number_of_tools_owned___policy,crop_diversification___policy,number_of_days_hired_workers___policy,household_head_is_monogamous"

@@ -1,5 +1,5 @@
 ,clustered,input,method,model,mse,roc_auc,scaled_mse,segment
-0,False,Highly correlated all,,Lasso,0.777551969725289,0.5,0.7775519697252895,
-1,True,Highly correlated all,clustered,Lasso,0.8359484191673792,0.5,0.8359484191673797,"land_surface,number_of_animals_owned___policy,has_hired_workers___policy,household_size,household_head_is_widowed"
-2,False,Highly correlated policy,,Lasso,0.856737244240229,0.5,0.8567372442402296,
-3,True,Highly correlated policy,clustered,Lasso,0.8679222773003619,0.5,0.8679222773003624,"land_surface,number_of_animals_owned___policy,has_hired_workers___policy,household_size,household_head_is_widowed"
+0,False,Highly correlated all,,OLS,0.7775519697261737,0.5,0.7775519697261742,
+1,True,Highly correlated all,clustered,OLS,0.8359484191630312,0.5,0.8359484191630318,"land_surface,number_of_animals_owned___policy,has_hired_workers___policy,household_size,household_head_is_widowed"
+2,False,Highly correlated policy,,OLS,0.8567372442411956,0.5,0.8567372442411961,
+3,True,Highly correlated policy,clustered,OLS,0.8679222773023789,0.5,0.8679222773023795,"land_surface,number_of_animals_owned___policy,has_hired_workers___policy,household_size,household_head_is_widowed"
